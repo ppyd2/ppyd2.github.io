@@ -52,7 +52,7 @@
     <div class="author-name wow fadeIn" data-wow-duration="3s" data-wow-delay="4s">OMK Se-Paroki St. Padre Pio</div>
 
     <!--COMING SOON-->
-    <div class="soon wow bounceInDown" data-wow-duration="3s" data-wow-delay="0s">Padre Pio Youth Day II</div>
+    <div class="soon wow bounceInDown" data-wow-duration="3s" data-wow-delay="0s"><b><span style="font-size: 25pt;">Padre Pio Youth Day II</span></b></div>
 
     <!--ROTATING TEXT-->
     <h1 class="text-rotator-fade wow bounceInDown" data-wow-duration="3s" data-wow-delay="1s">
@@ -366,18 +366,18 @@
 		//<![CDATA[
     		$(document).on("ready", function(e) {
 
-				<!--Background-->
+				// Background 
         		$.vegas({
    					src:'img/background.jpg'
 				})('overlay');
 
-				<!--jquery-stars-->
+				//jquery-stars
 				$('.jquery-stars').jstars({
 					image_path: 'img'  ,
 					style:'rand'
 				});
 
-				<!--VideoPopUp-->
+				// VideoPopUp
 				jQuery("a.autoplay").VideoPopUp();
 				jQuery("a.noautoplay").VideoPopUp( { autoplay: 0 } ); // Disable autoplay
 			});
